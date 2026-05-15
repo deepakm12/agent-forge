@@ -1,0 +1,16 @@
+respondent_id,age,gender,income,satisfaction,recommend,comments
+1,34,M,75000,4,Yes,Great service
+2,28,,45000,3,No,
+3,45,F,95000,5,Yes,Excellent
+4,,M,62000,4,Yes,Good overall
+5,52,F,,2,No,Needs improvement
+6,31,M,58000,,Yes,
+7,41,F,88000,4,Yes,Very satisfied
+8,25,,35000,3,,Average experience
+9,,F,72000,5,Yes,Outstanding
+10,38,M,,4,Yes,Happy customer
+11,29,M,41000,2,No,Poor support
+12,55,F,105000,5,Yes,
+13,,,,,,
+14,44,M,78000,4,Yes,Good
+15,36,F,67000,3,No,Could be better

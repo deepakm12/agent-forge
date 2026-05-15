@@ -1,0 +1,21 @@
+date,region,product,revenue,units
+2024-01-01,North,Widget A,1200.50,120
+2024-01-01,South,Widget B,850.00,85
+2024-01-02,East,Widget A,2100.00,210
+2024-01-02,West,Widget C,430.75,43
+2024-01-03,North,Widget B,1750.25,175
+2024-01-03,South,Widget C,920.00,92
+2024-01-04,East,Widget B,640.00,64
+2024-01-04,West,Widget A,3200.00,320
+2024-01-05,North,Widget C,510.50,51
+2024-01-05,South,Widget A,1890.00,189
+2024-01-06,East,Widget C,770.00,77
+2024-01-06,West,Widget B,1100.00,110
+2024-01-07,North,Widget A,2400.00,240
+2024-01-07,South,Widget B,680.00,68
+2024-01-08,East,Widget A,1560.00,156
+2024-01-08,West,Widget C,890.00,89
+2024-01-09,North,Widget B,2100.00,210
+2024-01-09,South,Widget C,450.00,45
+2024-01-10,East,Widget A,3400.00,340
+2024-01-10,West,Widget B,1230.00,123

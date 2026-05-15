@@ -1,0 +1,84 @@
+[
+  {
+    "id": "scenario_1",
+    "name": "Basic descriptive stats",
+    "csv": "tests/sample_csvs/sales_data.csv",
+    "user_query": "Give me a full descriptive analysis of this sales data",
+    "clarifying_answers": [
+      "Full dataset, all dates",
+      "Revenue and units performance",
+      "Executive summary"
+    ],
+    "expected_outcomes": {
+      "has_stats": true,
+      "has_insight": true,
+      "mentions_region": true,
+      "final_response_min_chars": 200
+    }
+  },
+  {
+    "id": "scenario_2",
+    "name": "Correlation analysis",
+    "csv": "tests/sample_csvs/marketing_metrics.csv",
+    "user_query": "Analyze correlations between marketing spend and revenue",
+    "clarifying_answers": [
+      "All campaigns",
+      "Spend vs revenue correlation",
+      "Marketing analyst"
+    ],
+    "expected_outcomes": {
+      "has_stats": true,
+      "has_insight": true,
+      "final_response_min_chars": 200
+    }
+  },
+  {
+    "id": "scenario_3",
+    "name": "Time-series trend",
+    "csv": "tests/sample_csvs/monthly_revenue.csv",
+    "user_query": "Analyze revenue trends and growth over time",
+    "clarifying_answers": [
+      "Full 2023-2024 period",
+      "Revenue growth and seasonality",
+      "Finance team"
+    ],
+    "expected_outcomes": {
+      "has_stats": true,
+      "has_insight": true,
+      "final_response_min_chars": 200
+    }
+  },
+  {
+    "id": "scenario_4",
+    "name": "Outlier detection",
+    "csv": "tests/sample_csvs/sensor_readings.csv",
+    "user_query": "Detect anomalies in sensor readings",
+    "clarifying_answers": [
+      "All sensors and timestamps",
+      "Temperature anomalies",
+      "Operations team"
+    ],
+    "expected_outcomes": {
+      "has_stats": true,
+      "has_insight": true,
+      "final_response_min_chars": 200
+    }
+  },
+  {
+    "id": "scenario_5",
+    "name": "Missing data handling",
+    "csv": "tests/sample_csvs/incomplete_survey.csv",
+    "user_query": "Analyze this survey data and report on data quality",
+    "clarifying_answers": [
+      "All respondents",
+      "Data completeness and satisfaction scores",
+      "Data quality team"
+    ],
+    "expected_outcomes": {
+      "has_stats": true,
+      "has_insight": true,
+      "mentions_null": true,
+      "final_response_min_chars": 200
+    }
+  }
+]
