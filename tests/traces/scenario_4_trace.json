@@ -1,0 +1,40 @@
+{
+  "scenario_id": "scenario_4",
+  "name": "Outlier detection",
+  "session_id": "6d8b8639-8114-43e8-9862-708544369a42",
+  "elapsed_s": 37.87,
+  "evaluation": {
+    "has_final_response": true,
+    "final_response_min_chars": true,
+    "has_stats": true,
+    "has_insight": true,
+    "passed": true
+  },
+  "final_response_preview": "### Comprehensive Final Response on Temperature Anomalies\n\n#### Executive Summary\n\nThis report outlines the detection of a significant temperature anomaly and provides actionable insights to address potential operational impacts. The anomaly was identified through statistical analysis, highlighting a deviation from expected temperature norms.\n\n#### Key Findings\n\n1. **Temperature Anomaly Detection**\n   - **Timestamp**: January 1, 2024, at 00:25\n   - **Sensor**: S2\n   - **Z-Score**: 3.39, indicati",
+  "subtask_results": [
+    {
+      "id": "1",
+      "agent": "stats",
+      "success": true,
+      "output_preview": "Temperature Mean: 24.693333333333335\nTemperature Standard Deviation: 22.563987320718024\nOutliers based on temperature z-scores:\n          timestamp sensor_id  ...  pressure  temperature_zscore\n5  2024"
+    },
+    {
+      "id": "2",
+      "agent": "stats",
+      "success": true,
+      "output_preview": "Outliers based on temperature z-scores:\n          timestamp sensor_id  ...  pressure  temperature_zscore\n5  2024-01-01 00:25        S2  ...    1013.0            3.270994\n\n[1 rows x 6 columns]\n"
+    },
+    {
+      "id": "3",
+      "agent": "viz",
+      "success": true,
+      "output_preview": "Temperature anomalies based on z-scores:\n          timestamp sensor_id  ...  pressure  temperature_zscore\n5  2024-01-01 00:25        S2  ...    1013.0              3.3858\n\n[1 rows x 6 columns]\ntempera"
+    },
+    {
+      "id": "4",
+      "agent": "insight",
+      "success": true,
+      "output_preview": "### Summary Report on Detected Anomalies\n\n#### Key Insights\n\n1. **Significant Temperature Anomaly Detected**\n   - On January 1, 2024, at 00:25, sensor S2 recorded a temperature anomaly with a z-score "
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scenario_id": "scenario_2",
+  "name": "Correlation analysis",
+  "session_id": "db172671-90a5-4e76-8512-d9be9e4c8e87",
+  "elapsed_s": 70.57,
+  "evaluation": {
+    "has_final_response": true,
+    "final_response_min_chars": true,
+    "has_stats": true,
+    "has_insight": true,
+    "passed": true
+  },
+  "final_response_preview": "### Comprehensive Campaign Performance Analysis\n\n#### High-Performing Campaigns\n\n1. **Search Campaigns:**\n   - **Search C** leads with a revenue of **$8,100**, followed by **Search A** at **$6,750**. These campaigns demonstrate exceptional performance, indicating effective targeting and a strong return on investment.\n\n2. **Social Campaigns:**\n   - **Social C** and **Social B** generate revenues of **$6,750** and **$5,400** respectively, showcasing the effectiveness of social media in engaging an",
+  "subtask_results": [
+    {
+      "id": "1",
+      "agent": "stats",
+      "success": true,
+      "output_preview": "Total Revenue per Campaign:\ncampaign\nDisplay A     360\nDisplay D     500\nEmail A      2800\nEmail B      2500\nEmail C      3125\nSearch A     6750\nSearch C     8100\nSocial A     4500\nSocial B     5400\nS"
+    },
+    {
+      "id": "2",
+      "agent": "stats",
+      "success": true,
+      "output_preview": "Descriptive Statistics:\n             spend    impressions      clicks  conversions      revenue\ncount    10.000000      10.000000    10.00000    10.000000    10.000000\nmean    710.000000   94000.00000"
+    },
+    {
+      "id": "3",
+      "agent": "viz",
+      "success": true,
+      "output_preview": "Total Revenue per Campaign:\ncampaign\nDisplay A     360\nDisplay D     500\nEmail A      2800\nEmail B      2500\nEmail C      3125\nSearch A     6750\nSearch C     8100\nSocial A     4500\nSocial B     5400\nS"
+    },
+    {
+      "id": "4",
+      "agent": "viz",
+      "success": true,
+      "output_preview": "spend_vs_revenue.png\n"
+    },
+    {
+      "id": "5",
+      "agent": "insight",
+      "success": true,
+      "output_preview": "### Campaign Performance Insights\n\n1. **High-Performing Campaigns:**\n   - **Search Campaigns** are the top performers, with **Search C** generating the highest revenue at **$8,100**, followed by **Sea"
+    }
+  ]
+}

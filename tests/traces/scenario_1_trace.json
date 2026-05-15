@@ -1,0 +1,47 @@
+{
+  "scenario_id": "scenario_1",
+  "name": "Basic descriptive stats",
+  "session_id": "90ff0a21-c653-454a-9cdc-2f80f0bdf278",
+  "elapsed_s": 49.68,
+  "evaluation": {
+    "has_final_response": true,
+    "final_response_min_chars": true,
+    "has_stats": true,
+    "has_insight": true,
+    "mentions_region": true,
+    "passed": true
+  },
+  "final_response_preview": "### Comprehensive Final Response: Regional Performance Analysis\n\n#### Executive Summary: Regional Performance Insights\n\nThe analysis of regional performance reveals key insights into revenue and unit sales across four regions: East, North, West, and South. This information is crucial for strategic planning and resource allocation to maximize business success.\n\n#### 1. East Region: Leading in Revenue and Units\nThe East region emerges as the top performer, generating $8,470 in revenue and selling ",
+  "subtask_results": [
+    {
+      "id": "1",
+      "agent": "stats",
+      "success": true,
+      "output_preview": "Total Revenue and Total Units by Region:\n  region  revenue  units\n0   East  8470.00    847\n1  North  7961.25    796\n2  South  4790.00    479\n3   West  6850.75    685\n"
+    },
+    {
+      "id": "2",
+      "agent": "stats",
+      "success": true,
+      "output_preview": "Total Revenue and Units by Region with Percentages:\n  region  revenue  units  revenue_percentage  units_percentage\n0   East  8470.00    847           30.172414         30.174564\n1  North  7961.25    7"
+    },
+    {
+      "id": "3",
+      "agent": "viz",
+      "success": true,
+      "output_preview": "Total Revenue by Region:\n  region  revenue\n0   East  8470.00\n1  North  7961.25\n2  South  4790.00\n3   West  6850.75\ntotal_revenue_by_region.png\n"
+    },
+    {
+      "id": "4",
+      "agent": "viz",
+      "success": true,
+      "output_preview": "Total Units by Region:\n  region  units\n0   East    847\n1  North    796\n2  South    479\n3   West    685\nChart saved as total_units_by_region.png\n"
+    },
+    {
+      "id": "5",
+      "agent": "insight",
+      "success": true,
+      "output_preview": "### Executive Summary: Regional Performance Insights\n\n#### 1. East Region: Leading in Revenue and Units\nThe East region is the top performer, generating $8,470 in revenue and selling 847 units. This a"
+    }
+  ]
+}
