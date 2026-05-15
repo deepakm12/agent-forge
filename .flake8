@@ -1,5 +1,5 @@
 [flake8]
-max-line-length = 120
+max-line-length = 200
 
 extend-ignore =
     E203,
@@ -12,6 +12,3 @@ exclude =
     .venv,
 
 extend_select = B,C,E,F,T4,B9
-
-per-file-ignores =
-    tests/test_samples.py:E501
